@@ -1,16 +1,60 @@
+
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Accessible Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Main heading -->
+    <h1 role="heading">My Portfolio</h1>
+
+    <!-- Navigation bar -->
+    <nav role="navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Image -->
+    <img
+        role="img"
+        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400"
+        alt="Portrait of a professional woman"
+    >
+
+    <!-- Description -->
+    <div id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a web development student.
+            I enjoy learning HTML, CSS and JavaScript.
+            I want to become a professional web developer.
+        </p>
+    </div>
+
+    <!-- Skills list -->
+    <div id="skills">
+        <h2>My Skills</h2>
+
+        <ul role="list">
+            <li role="listitem">HTML</li>
+            <li role="listitem">CSS</li>
+            <li role="listitem">JavaScript</li>
+        </ul>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: harshitha@gmail.com</p>
+    </div>
 
 </body>
-
 </html>

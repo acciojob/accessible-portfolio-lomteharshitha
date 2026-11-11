@@ -1,2 +1,51 @@
 
 /* Your CSS Code here. */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 25px auto;
+}
+
+div {
+    background-color: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+li {
+    padding: 5px;
+}
